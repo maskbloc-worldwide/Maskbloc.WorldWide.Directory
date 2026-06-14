@@ -1,7 +1,6 @@
 # Maskbloc.WorldWide.Directory
-A directory of all known and active Mask Blocs, Clean Air Orgs, and other Covid-19 focused Mutual Aid Groups
 
-A free, static, low-maintenance directory of Mask Blocs worldwide — with search, a region-grouped listing, a self-hosted interactive map (Leaflet + OpenStreetMap), and a public submission form that routes through **human review** before anything goes live.
+A free, static, low-maintenance directory of Mask Blocs, Clean Air Orgs, and other Covid-19 focused Mutual Aid Groups worldwide — with search, a region-grouped listing, a self-hosted interactive map (Leaflet + OpenStreetMap), and a public submission form that routes through **human review** before anything goes live.
 
 Three files, no database, no server required:
 
