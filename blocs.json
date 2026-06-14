@@ -14,7 +14,7 @@
     {
       "name": "Mask Bloc HTX",
       "region": "USA – South",
-      "location": "TX (Texas)",
+      "location": "Houston, TX (Texas)",
       "description": "Free Masks, Free Covid Tests, Free Zines, and more!",
       "status": "active",
       "links": [
@@ -26,9 +26,23 @@
       "lng": -95.3698
     },
     {
+      "name": "Mask Bloc ATX",
+      "region": "USA – South",
+      "location": "Austin, TX (Texas)",
+      "description": "COVID prevention activist & mutual aid group that gives out masks for free in communities.",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskblocatx/" },
+        { "label": "Mask Bloc ATX Carrd", "url": "https://maskblocatx.carrd.co/?" },
+        { "label": "Request Form", "url": "https://forms.gle/zLbJqqkHVviq8Ej39" }
+      ],
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    {
       "name": "South Eastern Pennsylvania Air Safety Bloc",
       "region": "USA – Northeast",
-      "location": "PA (Pennsylvania)",
+      "location": "Philly, PA (Pennsylvania)",
       "description": "Now avail for distro in the Greater Philly Area: masks, covid tests, airborne safety ed, + public health & harm redux goods 😷 More comrades always welcome 💙 We are on crip time🦋.",
       "status": "active",
       "links": [
