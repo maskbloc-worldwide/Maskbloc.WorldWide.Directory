@@ -120,6 +120,20 @@
       ],
       "lat": 42.2667,
       "lng": -72.6689
+    },
+    {
+      "name": "Mask Bloc St. Louis",
+      "region": "USA – Midwest",
+      "location": "St. Louis, MO (Missouri)",
+      "description": "Mask Bloc serving the STL metro area and beyond in MO. Check out our linktree to donate or request supplies!",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskblocstl/" },
+        { "label": "Linktree", "url": "https://linktr.ee/maskblocstl/" },
+        { "label": "Request Form", "url": "https://docs.google.com/forms/d/e/1FAIpQLScXWyAn_yzHmW8pw0f0UhiPYtYTq7RLLA0PUEykN1rsiZApdw/viewform" }
+      ],
+      "lat": 38.6270,
+      "lng": -90.1994
     }
   ]
 }
