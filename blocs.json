@@ -1,0 +1,42 @@
+{
+  "_comment": "This is the single source of truth for the directory. Each entry is one bloc. To add an approved submission, append an object to the 'blocs' array and commit. Keep it valid JSON (watch trailing commas).",
+  "_schema": {
+    "name": "Display name of the bloc (required)",
+    "region": "Top-level region grouping, e.g. 'USA – West', 'Canada', 'United Kingdom' (required)",
+    "location": "Sub-location shown as a tag, e.g. 'CA (California)' or 'London' (optional)",
+    "description": "Short blurb about what they offer (optional)",
+    "status": "One of: active, getting-started, inactive, clean-air, advocacy, care-collective, campus, charity (optional, defaults to active)",
+    "links": "Array of { label, url } objects (optional)",
+    "lat": "Latitude as a number, used for the map (optional but recommended)",
+    "lng": "Longitude as a number, used for the map (optional but recommended)"
+  },
+  "blocs": [
+    {
+      "name": "Mask Bloc HTX",
+      "region": "USA – South",
+      "location": "TX (Texas)",
+      "description": "Free Masks, Free Covid Tests, Free Zines, and more!",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://instagram.com/maskbloc.htx" },
+        { "label": "Our English Request Form", "url": "https://tinyurl.com/5n7mwt4b" },
+        { "label": "Our Spanish Request Form", "url": "https://tinyurl.com/44e776ef" }
+      ],
+      "lat": 29.7604,
+      "lng": -95.3698
+    },
+    {
+      "name": "South Eastern Pennsylvania Air Safety Bloc",
+      "region": "USA – Northeast",
+      "location": "PA (Pennsylvania)",
+      "description": "Now avail for distro in the Greater Philly Area: masks, covid tests, airborne safety ed, + public health & harm redux goods 😷 More comrades always welcome 💙 We are on crip time🦋.",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/sepas_bloc/" },
+        { "label": "LinkTree", "url": "https://linktr.ee/sepas_bloc" }
+      ],
+      "lat": 39.9526,
+      "lng": -75.1652
+    }
+  ]
+}
