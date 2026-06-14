@@ -14,34 +14,7 @@ The directory and the map both read from `blocs.json`. To publish an approved bl
 
 ---
 
-## 1. Put it online (free)
-
-**GitHub Pages (recommended — pairs perfectly with the approval workflow below)**
-1. Create a new GitHub repository, e.g. `maskbloc.worldwide`.
-2. Upload `index.html`, `blocs.json`, and `README.md`.
-3. Repo **Settings → Pages → Source: Deploy from a branch → `main` / root → Save**.
-4. Your site is live at `https://maskbloc-htx.github.io/maskbloc.worldwide/` in a minute or two.
-
----
-
-## 2. Turn on submissions (Formspree — free, no backend)
-
-The form works out of the box in a fallback mode (it opens the submitter's email app). To collect submissions properly and get an email notification each time:
-
-1. Sign up at **https://formspree.io** (free tier covers ~50 submissions/month).
-2. Create a form; copy its endpoint, e.g. `https://formspree.io/f/abcdwxyz`.
-3. In `index.html`, find the **Config** block near the bottom and set:
-   ```js
-   const FORMSPREE_ENDPOINT = "https://formspree.io/f/abcdwxyz";
-   const CONTACT_EMAIL = "you@example.com"; // fallback only
-   ```
-4. Commit. Done — submissions now email you, with built-in spam filtering (plus the hidden honeypot field already in the form).
-
-Alternatives if you outgrow Formspree: **Tally**, **Basin**, or **Google Forms** (point the form's `action` there instead).
-
----
-
-## 3. The human-review → publish workflow
+## 1. The human-review → publish workflow
 
 This is the "automated with human verification" part. A static site can't write to its own data file when you click approve (that needs a server), so the realistic low-maintenance loop is:
 
@@ -86,13 +59,9 @@ On GitHub you can do this entirely in the browser: open `blocs.json` → pencil 
 
 **Coordinates:** right-click a spot in Google Maps → click the lat/lng at the top to copy. Omit `lat`/`lng` if unknown — the bloc still lists, it just won't pin on the map.
 
-### Want true one-click auto-publish later?
-
-Keep everything above and add a small **serverless function** (Cloudflare Workers or Netlify Functions, both free) that receives the submission and opens a GitHub pull request via the API. Your approval becomes "merge PR." The data shape doesn't change, so it's a clean drop-in upgrade — nothing else needs rewriting.
-
 ---
 
-## 4. The map
+## 2. The map
 
 The map is now **self-hosted** using [Leaflet](https://leafletjs.com) with [OpenStreetMap](https://www.openstreetmap.org) tiles — no Google account, no separate map to maintain, and no API key. It reads directly from `blocs.json`: **any entry with `lat` and `lng` is plotted automatically.** When you approve a bloc by adding it to the data file, its pin appears on the next page load. Nothing else to do.
 
@@ -107,7 +76,7 @@ Entries without coordinates still appear in the directory list — they just won
 
 ---
 
-## 5. Editing & removing blocs
+## 3. Editing & removing blocs
 
 - **Edit:** change the entry in `blocs.json` and commit.
 - **Remove:** delete the entry (and remove the matching pin from your My Map).
