@@ -134,6 +134,20 @@
       ],
       "lat": 38.6270,
       "lng": -90.1994
+    },
+    {
+      "name": "Mask Bloc LA",
+      "region": "USA – West",
+      "location": "Los Angeles, CA (California)",
+      "description": "mutual aid project to distribute free masks in the so-called Los Angeles area.",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskblocla/" },
+        { "label": "Linktree", "url": "https://linktr.ee/maskblocla/" },
+        { "label": "Request & Volunteer Form", "url": "https://docs.google.com/forms/d/1ObIvJrN8sabXfybGPjNKa8X9swvxHrDA4KUop7GR0QY/viewform" }
+      ],
+      "lat": 34.0549,
+      "lng": -118.2426
     }
   ]
 }
