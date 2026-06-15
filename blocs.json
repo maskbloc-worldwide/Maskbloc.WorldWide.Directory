@@ -148,6 +148,20 @@
       ],
       "lat": 34.0549,
       "lng": -118.2426
+    },
+    {
+      "name": "Covid Naarm Mask Bloc",
+      "region": "Kulin Nation - Australia",
+      "location": "Naarm or so-called Melbourne, AU (Australia)",
+      "description": "We offer free respirators (KF94, KN95, N95 & P2), rapid tests, menstrual supplies, zines, and we are starting to distribute free air purifiers for local community spaces.",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/covidnaarm/" },
+        { "label": "Linktree", "url": "https://linktr.ee/covidnaarm/" },
+        { "label": "Request & Volunteer Form", "url": "https://docs.google.com/forms/d/1ObIvJrN8sabXfybGPjNKa8X9swvxHrDA4KUop7GR0QY/viewform" }
+      ],
+      "lat": 144.9675024,
+      "lng": -37.8174504
     }
   ]
 }
