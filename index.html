@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Worldwide Mask Bloc Directory - Find your local Mask Bloc</title>
+<title>Mask Bloc Directory — Find your local Mask Bloc</title>
 <meta name="description" content="A community-maintained directory of active Mask Blocs around the world. Free high-quality masks, COVID-19 tests, and clean-air resources. We keep us safe.">
-<meta property="og:title" content="Worldwide Mask Bloc Directory — Find your local Mask Bloc">
+<meta property="og:title" content="Mask Bloc Directory — Find your local Mask Bloc">
 <meta property="og:description" content="A community-maintained directory of active Mask Blocs worldwide. Free masks, tests, and clean-air resources.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,9 +158,12 @@
   footer .wrap{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start}
   footer .tag{font-family:"Fraunces",serif;font-size:22px;max-width:24ch}
   footer .tag em{color:var(--mint);font-style:italic}
-  footer .social{display:flex;gap:8px;flex-wrap:wrap}
+  footer .social{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
   footer .social a{color:var(--paper);font-size:13.5px;padding:8px 13px;border:1px solid rgba(243,241,233,.28);border-radius:9px}
   footer .social a:hover{background:rgba(243,241,233,.08);text-decoration:none}
+  footer .social a.icon{display:inline-flex;align-items:center;justify-content:center;padding:9px;width:38px;height:38px;border-radius:50%}
+  footer .social a.icon svg{width:19px;height:19px}
+  footer .social .sep{width:1px;height:22px;background:rgba(243,241,233,.22);margin:0 4px}
   footer small{color:rgba(243,241,233,.55);font-size:12.5px;display:block;margin-top:26px;width:100%}
 
   @media (max-width:720px){
@@ -203,7 +206,7 @@
   <div class="wrap">
     <p class="eyebrow" style="color:var(--mint)">Mutual aid · We keep us safe</p>
     <h1>Find a <em>Mask Bloc</em> near you.</h1>
-    <p class="lede">A community-maintained directory of groups giving out free high-quality masks, COVID-19 tests, and clean-air resources. No questions asked. Search the list, browse the map, or add your bloc.</p>
+    <p class="lede">A community-maintained directory of groups giving out free high-quality masks, COVID-19 tests, and clean-air resources — no questions asked. Search the list, browse the map, or add your bloc.</p>
     <div class="actions">
       <a class="btn btn-primary" href="#directory">Browse the directory</a>
       <a class="btn btn-ghost" href="#submit">Add your bloc →</a>
@@ -319,8 +322,6 @@
     <h2 class="sec">Useful links</h2>
     <p class="sec-intro">Other organizations providing support and information on COVID-19 and airborne illness.</p>
     <div class="grid">
-      <div class="card"><h4>Texanalysis</h4><p>Respirator Info & Fit Testing.</p><div class="links"><a href="https://texanalysis.com//" target="_blank" rel="noopener">Website</a></div></div>
-      <div class="card"><h4>Pandemic Mitigation Collaborative</h4><p>The mission of the Pandemic Mitigation Collaborative is to reduce the physical and emotional burden of the COVID-19 pandemic.</p><div class="links"><a href="https://www.pmc19.com/" target="_blank" rel="noopener">Website</a></div></div>
       <div class="card"><h4>COVID Action Map</h4><p>Mapping COVID action groups worldwide.</p><div class="links"><a href="https://www.instagram.com/covidactionmap/" target="_blank" rel="noopener">Instagram</a></div></div>
       <div class="card"><h4>Public Health Action Network</h4><p>Nonprofit improving air quality and promoting evidence-based COVID-19 prevention.</p><div class="links"><a href="https://publichealthactionnetwork.org/" target="_blank" rel="noopener">Website</a></div></div>
       <div class="card"><h4>Clean Air Lending Libraries</h4><p>A map tracking clean-air lending libraries around the world.</p><div class="links"><a href="https://www.google.com/maps/d/viewer?mid=1GVu8htPDJuVRgNWX9wU58s5xZXH2hiA" target="_blank" rel="noopener">Open map</a></div></div>
@@ -346,6 +347,20 @@
       <a href="#submit">Add a bloc</a>
       <a href="#map">Map</a>
       <a href="#directory">Directory</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a class="icon" href="https://instagram.com/worldwide.maskbloc/" target="_blank" rel="noopener" aria-label="Mask Bloc Directory on Instagram">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2.75" y="2.75" width="18.5" height="18.5" rx="5" stroke="currentColor" stroke-width="1.8"/>
+          <circle cx="12" cy="12" r="4.25" stroke="currentColor" stroke-width="1.8"/>
+          <circle cx="17.25" cy="6.75" r="1.1" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="icon" href="mailto:maskbloc.worldwide@proton.me" aria-label="Email Mask Bloc Directory">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2.75" y="4.75" width="18.5" height="14.5" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M4 6.5L11.16 12.18a1.4 1.4 0 0 0 1.68 0L20 6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
     </div>
     <small>Community-maintained directory · Not medical advice · Listings reviewed before publishing.</small>
   </div>
@@ -355,8 +370,8 @@
 /* ---------- Config ---------- */
 // Paste your Formspree endpoint here (e.g. "https://formspree.io/f/abcdwxyz").
 // Leave as "" to use the no-backend mailto fallback.
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/maqzaozr";
-const CONTACT_EMAIL = "maskbloc.worldwide@proton.me"; // used only by the mailto fallback
+const FORMSPREE_ENDPOINT = "";
+const CONTACT_EMAIL = "you@example.com"; // used only by the mailto fallback
 
 /* ---------- Load + render directory ---------- */
 const STATUS_LABELS = {
@@ -433,7 +448,7 @@ function initMap(blocs){
 
   const pin = L.divIcon({
     className:'',
-    html:'<svg class="map-pin" width="26" height="34" viewBox="0 0 26 34" xmlns="https://www.w3.org/2000/svg"><path d="M13 0C5.8 0 0 5.8 0 13c0 9 13 21 13 21s13-12 13-21C26 5.8 20.2 0 13 0z" fill="#159b86"/><circle cx="13" cy="13" r="5" fill="#f3f1e9"/></svg>',
+    html:'<svg class="map-pin" width="26" height="34" viewBox="0 0 26 34" xmlns="http://www.w3.org/2000/svg"><path d="M13 0C5.8 0 0 5.8 0 13c0 9 13 21 13 21s13-12 13-21C26 5.8 20.2 0 13 0z" fill="#159b86"/><circle cx="13" cy="13" r="5" fill="#f3f1e9"/></svg>',
     iconSize:[26,34], iconAnchor:[13,34], popupAnchor:[0,-30]
   });
 
