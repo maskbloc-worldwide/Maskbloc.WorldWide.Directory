@@ -382,7 +382,7 @@
       "name": "Reading Mask Bloc",
       "region": "Europe",
       "location": "Reading, UK (United Kingdom)",
-      "description": "Free respirators. we have bifold n95s and duckbill ffp3s rn.",
+      "description": "We have free respirators, bifold n95s, tri-fold/boat headstrap (and easy earloop hack) FFP2, duckbill ffp3s, and zines and stickers too. Turnaround is slow at this moment in time.",
       "status": "active",
       "type": "mask-bloc",
       "links": [
@@ -390,6 +390,20 @@
       ],
       "lat": 51.45625,
       "lng": -0.97113
+    },
+    {
+      "name": "Mask Bloc Amiens",
+      "region": "Europe",
+      "location": "Amiens, FR-HDF (France)",
+      "description": "FFP2 gratuits.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Mastodon", "url": "https://piaille.fr/@MaskBlocAmiens" },
+        { "label": "Bluesky", "url": "https://bsky.app/profile/maskbloc-amiens.bsky.social" }
+      ],
+      "lat": 49.8503353,
+      "lng": 2.3070256
     }
   ]
 }
