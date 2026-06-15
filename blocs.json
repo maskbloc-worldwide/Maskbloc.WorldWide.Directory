@@ -180,17 +180,94 @@
     {
       "name": "Aotearoa Mask Bloc Pōneke",
       "region": "Oceania",
-      "location": "Wellington, NZ (New Zealand)",
+      "location": "Newton Library, Wellington, NZ (New Zealand)",
       "description": "Free N95s and KN95s, info about how to choose a mask.",
       "status": "active",
       "links": [
         { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
         { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
-        { "label": "facebook", "url": "https://www.facebook.com/aotearoamaskbloc//" },
         { "label": "facebook", "url": "https://www.facebook.com/aotearoamaskbloc//" }
       ],
       "lat": -41.31341,
       "lng": 174.78057
+    },
+     {
+      "name": "Aotearoa Mask Bloc Rānui",
+      "region": "Oceania",
+      "location": "Rānui Library, Auckland, NZ (New Zealand)",
+      "description": "Free N95s, KN95s, and information about masks.",
+      "status": "active",
+      "links": [
+        { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
+        { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
+        { "label": "facebook", "url": "https://www.facebook.com/aotearoamaskbloc//" }
+      ],
+      "lat": -36.863653,
+      "lng": 174.602175
+    },
+    {
+      "name": "Aotearoa Mask Bloc Avondale",
+      "region": "Oceania",
+      "location": "Avondale Library, Auckland, NZ (New Zealand)",
+      "description": "Free N95s, KN95s, and information about masks.",
+      "status": "active",
+      "links": [
+        { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
+        { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
+        { "label": "facebook", "url": "https://www.facebook.com/aotearoamaskbloc//" }
+      ],
+      "lat": -36.894223,
+      "lng": 174.695460
+    },
+    {
+      "name": "Mask Bloc Atlanta",
+      "region": "USA - South",
+      "location": "Atlanta, GA (Georgia)",
+      "description": "Free KN95 and N95 masks, resources, and info to keep our community safer.",
+      "status": "active",
+      "links": [
+        { "label": "Website", "url": "https://maskblocatl.org/" },
+        { "label": "Linktree", "url": "https://linktr.ee/maskblocatl" }
+      ],
+      "lat": -36.894223,
+      "lng": 174.695460
+    },
+    {
+      "name": "Atlanta Community Air Lending Library (C.A.L.L.)",
+      "region": "USA - South",
+      "location": "Atlanta, GA (Georgia)",
+      "description": "Maintains a free air lending library, promotes COVID-safer events, and provides educational resources to keep our community safer.",
+      "status": "clean-air",
+      "links": [
+        { "label": "Linktree", "url": "https://linktr.ee/atl.community.air" }
+      ],
+      "lat": 33.7557,
+      "lng": -84.3910
+    },
+    {
+      "name": "Mask Bloc 914",
+      "region": "USA - Northeast",
+      "location": "Hartsdale, NY (New York)",
+      "description": "Free N95s & KN95s. Providing Lower Westchester County, NY with free respirators. Reach out via DM!",
+      "status": "active",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskbloc914" },
+        { "label": "Shop", "url": "https://sassyhomo.com/" }
+      ],
+      "lat": 41.0173097,
+      "lng": -73.7983770
+    },
+    {
+      "name": "Mask Bloc Little Rock",
+      "region": "USA - South",
+      "location": "Little Rock, AK (Arkansas)",
+      "description": "Free respirators.",
+      "status": "clean-air",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskbloclittlerock" }
+      ],
+      "lat": 34.7465,
+      "lng": -92.2896
     }
   ]
 }
