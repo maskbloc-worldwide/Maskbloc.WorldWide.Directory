@@ -229,8 +229,8 @@
         { "label": "Website", "url": "https://maskblocatl.org/" },
         { "label": "Linktree", "url": "https://linktr.ee/maskblocatl" }
       ],
-      "lat": 36.894223,
-      "lng": -84.3910
+      "lat": 33.75607788129381,
+      "lng": -84.3876862899542
     },
     {
       "name": "Atlanta Community Air Lending Library (C.A.L.L.)",
@@ -239,10 +239,11 @@
       "description": "Maintains a free air lending library, promotes COVID-safer events, and provides educational resources to keep our community safer.",
       "status": "clean-air",
       "links": [
-        { "label": "Linktree", "url": "https://linktr.ee/atl.community.air" }
+        { "label": "Instagram", "url": "https://www.instagram.com/atl.community.air/" },
+        { "label": "Linktree", "url": "https://linktr.ee/atl.community.air" },
       ],
-      "lat": 33.7557,
-      "lng": -84.3910
+      "lat": 33.76374401384428,
+      "lng": -84.41643885453051
     },
     {
       "name": "Mask Bloc 914",
