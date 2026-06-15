@@ -349,6 +349,20 @@
       ],
       "lat": 50.447090,
       "lng": -104.618163
+    },
+    {
+      "name": "Mask Up Pittsburgh",
+      "region": "USA - Northeast",
+      "location": "Pittsburgh, PA (Pennsylvania)",
+      "description": "Free n95s and kn95s, free covid-19 rapid tests, and free zines.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Linktree", "url": "https://linktr.ee/maskuppittsburgh" },
+        { "label": "Request Form", "url": "https://form.jotform.com/251106237734048" }
+      ],
+      "lat": 40.4307,
+      "lng": -79.9317
     }
   ]
 }
