@@ -5,10 +5,11 @@
     "region": "Top-level region grouping, e.g. 'USA – West', 'Canada', 'United Kingdom' (required)",
     "location": "Sub-location shown as a tag, e.g. 'CA (California)' or 'London' (optional)",
     "description": "Short blurb about what they offer (optional)",
-    "status": "One of: active, getting-started, inactive, clean-air, advocacy, care-collective, campus, charity (optional, defaults to active)",
+    "status": "Operational status. One of: active, forming, inactive (optional, defaults to active)",
+    "type": "Type of org. One of: mask-bloc, clean-air, advocacy, care-collective, student-led, charity (optional, defaults to mask-bloc)",
     "links": "Array of { label, url } objects (optional)",
-    "lat": "Latitude as a number, used for the map (optional but recommended)",
-    "lng": "Longitude as a number, used for the map (optional but recommended)"
+    "lat": "Latitude as a number, used for the map (required)",
+    "lng": "Longitude as a number, used for the map (required)"
   },
   "blocs": [
     {
@@ -17,6 +18,7 @@
       "location": "Houston, TX (Texas)",
       "description": "Mutual aid cooperative in so-called Houston.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://instagram.com/maskbloc.htx" },
         { "label": "Our English Request Form", "url": "https://tinyurl.com/5n7mwt4b" },
@@ -31,6 +33,7 @@
       "location": "Austin, TX (Texas)",
       "description": "COVID prevention activist & mutual aid group that gives out masks for free in communities.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskblocatx/" },
         { "label": "Mask Bloc ATX Carrd", "url": "https://maskblocatx.carrd.co/?" },
@@ -39,12 +42,13 @@
       "lat": 30.2672,
       "lng": -97.7431
     },
-     {
+    {
       "name": "Mask Bloc DFW",
       "region": "USA – South",
       "location": "Dallas - Fort Worth, TX (Texas)",
       "description": "A mutual aid group providing free masks, pol. ed. and DJ advocacy.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskblocdfw/" },
         { "label": "Mask Bloc DFW Linktree", "url": "https://linktr.ee/maskblocdfw" },
@@ -60,6 +64,7 @@
       "location": "Philly, PA (Pennsylvania)",
       "description": "Now avail for distro in the Greater Philly Area: masks, covid tests, airborne safety ed, + public health & harm redux goods 😷 More comrades always welcome 💙 We are on crip time🦋.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/sepas_bloc/" },
         { "label": "LinkTree", "url": "https://linktr.ee/sepas_bloc" }
@@ -73,6 +78,7 @@
       "location": "San Antonion, TX (Texas)",
       "description": "Building community, sharing resources, advocating for masking, clean air, & accessibility for all. 😷🤝😷.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/ccb.sa/" },
         { "label": "Website", "url": "https://ccb-sa.org" }
@@ -86,6 +92,7 @@
       "location": "Montco, PA (Pennsylvania)",
       "description": "Friendly neighborhood mask bloc supporting central area of Montco, PA.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/centralmontcomaskbloc/" },
         { "label": "Linktree", "url": "http://linktr.ee/centralmontcomaskbloc" },
@@ -100,6 +107,7 @@
       "location": "Reading, PA (Pennsylvania)",
       "description": "100% volunteer-run and funded mutual aid to fight disease in Reading, PA. Luchando contra COVID-19 en Reading, PA. 100% financiado por voluntarios.",
       "status": "active",
+      "type": "clean-air",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/clean.air.reading/" },
         { "label": "Linktree", "url": "https://linktr.ee/clean.air.reading" },
@@ -115,6 +123,7 @@
       "location": "Easthampton, MA (Massachusetts)",
       "description": "Mask Bloc for direct actions in the Western Mass.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/p/DYqG2V1EayB/" }
       ],
@@ -127,6 +136,7 @@
       "location": "St. Louis, MO (Missouri)",
       "description": "Mask Bloc serving the STL metro area and beyond in MO. Check out our linktree to donate or request supplies!",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskblocstl/" },
         { "label": "Linktree", "url": "https://linktr.ee/maskblocstl/" },
@@ -141,6 +151,7 @@
       "location": "Los Angeles, CA (California)",
       "description": "Mutual aid project to distribute free masks in the so-called Los Angeles area.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskblocla/" },
         { "label": "Linktree", "url": "https://linktr.ee/maskblocla/" },
@@ -155,6 +166,7 @@
       "location": "Naarm or so-called Melbourne, AU (Kulin Nation - Australia)",
       "description": "We offer free respirators (KF94, KN95, N95 & P2), rapid tests, menstrual supplies, zines, and we are starting to distribute free air purifiers for local community spaces.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/covidnaarm/" },
         { "label": "Linktree", "url": "https://linktr.ee/covidnaarm/" },
@@ -169,6 +181,7 @@
       "location": "Ann Arbor, MI (Michigan)",
       "description": "A mutual aid group with efforts focused in Southeast Michigan, with an air purifier (& more!) lending library, local events and clean air advocacy.",
       "status": "active",
+      "type": "clean-air",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/safer.shared.air/" },
         { "label": "Linkstack", "url": "http://us.linkstack.org/@safersharedair/" },
@@ -183,6 +196,7 @@
       "location": "Newton Library, Wellington, NZ (New Zealand)",
       "description": "Free N95s and KN95s, info about how to choose a mask.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
         { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
@@ -191,12 +205,13 @@
       "lat": -41.31341,
       "lng": 174.78057
     },
-     {
+    {
       "name": "Aotearoa Mask Bloc Rānui",
       "region": "Oceania",
       "location": "Rānui Library, Auckland, NZ (New Zealand)",
       "description": "Free N95s, KN95s, and information about masks.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
         { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
@@ -211,6 +226,7 @@
       "location": "Avondale Library, Auckland, NZ (New Zealand)",
       "description": "Free N95s, KN95s, and information about masks.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Website", "url": "https://lnk.bio/AotearoaMaskBloc/" },
         { "label": "Instagram", "url": "https://www.instagram.com/aotearoamaskbloc/" },
@@ -225,6 +241,7 @@
       "location": "Atlanta, GA (Georgia)",
       "description": "Free KN95 and N95 masks, resources, and info to keep our community safer.",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Website", "url": "https://maskblocatl.org/" },
         { "label": "Linktree", "url": "https://linktr.ee/maskblocatl" }
@@ -237,7 +254,8 @@
       "region": "USA - South",
       "location": "Atlanta, GA (Georgia)",
       "description": "Maintains a free air lending library, promotes COVID-safer events, and provides educational resources to keep our community safer.",
-      "status": "clean-air",
+      "status": "active",
+      "type": "clean-air",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/atl.community.air/" },
         { "label": "Linktree", "url": "https://linktr.ee/atl.community.air" }
@@ -251,6 +269,7 @@
       "location": "Hartsdale, NY (New York)",
       "description": "Free N95s & KN95s. Providing Lower Westchester County, NY with free respirators. Reach out via DM!",
       "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskbloc914" },
         { "label": "Shop", "url": "https://sassyhomo.com/" }
@@ -263,12 +282,27 @@
       "region": "USA - South",
       "location": "Little Rock, AK (Arkansas)",
       "description": "Free respirators.",
-      "status": "clean-air",
+      "status": "active",
+      "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/maskbloclittlerock" }
       ],
       "lat": 34.7465,
       "lng": -92.2896
+    },
+    {
+      "name": "Mask Bloc Sunset San Francisco",
+      "region": "USA - West",
+      "location": "San Francisco, CA (California)",
+      "description": "Free masks in San Francisco.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskblocsunsetsf/" },
+        { "label": "Airtable", "url": "https://airtable.com/app8yut8LTfRFvMow/shr1qsM6DA1FFJilo" }
+      ],
+      "lat": 37.7749,
+      "lng": -122.4194
     }
   ]
 }
