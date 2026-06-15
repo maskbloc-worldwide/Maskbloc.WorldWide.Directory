@@ -67,6 +67,7 @@
       "type": "mask-bloc",
       "links": [
         { "label": "Instagram", "url": "https://www.instagram.com/sepas_bloc/" },
+        { "label": "Mastodon", "url": "https://www.nih.hil.ist/@sepas/" },
         { "label": "LinkTree", "url": "https://linktr.ee/sepas_bloc" }
       ],
       "lat": 39.9526,
@@ -303,6 +304,38 @@
       ],
       "lat": 37.7749,
       "lng": -122.4194
+    },
+    {
+      "name": "Still COVIDing Canada",
+      "region": "Canada",
+      "location": "San Francisco, CA (California)",
+      "description": "Bilingual website with action alerts, resource pages, information about masks, and over 3,300 news clippings about COVID-19 and other health issues.",
+      "status": "active",
+      "type": "care-collective",
+      "links": [
+        { "label": "Website", "url": "https://stillcoviding.ca/" },
+        { "label": "Instagram", "url": "https://www.instagram.com/stillcovidingcanada" },
+        { "label": "Bluesky", "url": "https://bsky.app/profile/stillcovidingca.bsky.social" },
+        { "label": "facebook", "url": "https://facebook.com/stillcovidingcanada" },
+        { "label": "Mastodon", "url": "https://mstdn.ca/@stillcovidingcanada" }
+      ],
+      "lat": 45.4247,
+      "lng": -75.69944
+    },
+    {
+      "name": "Washington Heights-Inwood Mask Bloc",
+      "region": "USA - Northeast",
+      "location": "Upper Manhattan, New York City, NY (New York)",
+      "description": "We offer free rapid tests and high-quality masks (KF94, KN95, N95, N99, etc.). Currently, the best way to reach us is via Facebook or Instagram, though you can also reach out via email (wahiinwoodmaskbloc@gmail.com) or check out our website at bit.ly/whinymaskbloc.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Website", "url": "https://bit.ly/whinymaskbloc/" },
+        { "label": "facebook", "url": "https://m.facebook.com/profile.php?id=61574839292284" },
+        { "label": "Instagram", "url": "https://www.instagram.com/wahi.inwoodmaskbloc/" }
+      ],
+      "lat": 40.8540,
+      "lng": -73.9312
     }
   ]
 }
