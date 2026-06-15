@@ -377,6 +377,19 @@
       ],
       "lat": 52.520008,
       "lng": 13.404954
+    },
+    {
+      "name": "Reading Mask Bloc",
+      "region": "Europe",
+      "location": "Reading, UK (United Kingdom)",
+      "description": "Free respirators. we have bifold n95s and duckbill ffp3s rn.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/rdgmaskbloc" }
+      ],
+      "lat": 51.45625,
+      "lng": -0.97113
     }
   ]
 }
