@@ -1,6 +1,6 @@
 # Maskbloc.WorldWide.Directory
 
-A free, static, low-maintenance directory of Mask Blocs, Clean Air Orgs, and other Covid-19 focused Mutual Aid Groups worldwide — with search, a region-grouped listing, a self-hosted interactive map (Leaflet + OpenStreetMap), and a public submission form that routes through **human review** before anything goes live.
+A free, static, low-maintenance directory of Mask Blocs, Clean Air Orgs, and other Covid-19 focused Mutual Aid Groups worldwide - with search, a region-grouped listing, a self-hosted interactive map (Leaflet + OpenStreetMap), and a public submission form that routes through **human review** before anything goes live.
 
 Three files, no database, no server required:
 
@@ -57,17 +57,17 @@ On GitHub you can do this entirely in the browser: open `blocs.json` → pencil 
 
 **`status` values** (control the colored badge): `active`, `getting-started`, `inactive`, `clean-air`, `care-collective`, `advocacy`, `campus`, `charity`.
 
-**Coordinates:** right-click a spot in Google Maps → click the lat/lng at the top to copy. Omit `lat`/`lng` if unknown — the bloc still lists, it just won't pin on the map.
+**Coordinates:** right-click a spot in Google Maps → click the lat/lng at the top to copy. Omit `lat`/`lng` if unknown - the bloc still lists, it just won't pin on the map.
 
 ---
 
 ## 2. The map
 
-The map is now **self-hosted** using [Leaflet](https://leafletjs.com) with [OpenStreetMap](https://www.openstreetmap.org) tiles — no Google account, no separate map to maintain, and no API key. It reads directly from `blocs.json`: **any entry with `lat` and `lng` is plotted automatically.** When you approve a bloc by adding it to the data file, its pin appears on the next page load. Nothing else to do.
+The map is now **self-hosted** using [Leaflet](https://leafletjs.com) with [OpenStreetMap](https://www.openstreetmap.org) tiles - no Google account, no separate map to maintain, and no API key. It reads directly from `blocs.json`: **any entry with `lat` and `lng` is plotted automatically.** When you approve a bloc by adding it to the data file, its pin appears on the next page load. Nothing else to do.
 
-Entries without coordinates still appear in the directory list — they just won't have a pin. To add one later, edit the entry and fill in `lat`/`lng`.
+Entries without coordinates still appear in the directory list - they just won't have a pin. To add one later, edit the entry and fill in `lat`/`lng`.
 
-**Getting coordinates:** right-click a location in Google Maps (or [openstreetmap.org](https://www.openstreetmap.org)) and copy the two numbers — latitude first, then longitude.
+**Getting coordinates:** right-click a location in Google Maps (or [openstreetmap.org](https://www.openstreetmap.org)) and copy the two numbers - latitude first, then longitude.
 
 **Notes**
 - Leaflet loads from a CDN (unpkg). It's pinned to a specific version with integrity hashes for safety. If you'd rather not depend on a CDN, download `leaflet.js` and `leaflet.css` into a `vendor/leaflet/` folder and point the two `<head>` tags at the local copies.
@@ -80,12 +80,12 @@ Entries without coordinates still appear in the directory list — they just won
 
 - **Edit:** change the entry in `blocs.json` and commit.
 - **Remove:** delete the entry (and remove the matching pin from your My Map).
-- **Honor removal requests promptly** — these are real groups, and some prefer not to be listed publicly.
+- **Honor removal requests promptly** - these are real groups, and some prefer not to be listed publicly.
 
 ---
 
 ## A note on safety & trust
 
-Listings are public and submitted by anyone, so the human-review step matters: confirm a group is real (an active social account or site usually suffices) before publishing, and don't post private home addresses — use a city/area and the group's own contact links. This is mutual-aid infrastructure; keeping it accurate and safe *is* the work.
+Listings are public and submitted by anyone, so the human-review step matters: confirm a group is real (an active social account or site usually suffices) before publishing, and don't post private home addresses - use a city/area and the group's own contact links. This is mutual-aid infrastructure; keeping it accurate and safe *is* the work.
 
 We keep us safe. ♥
