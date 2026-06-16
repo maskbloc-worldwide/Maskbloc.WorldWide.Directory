@@ -512,6 +512,19 @@
       ],
       "lat": 37.792825,
       "lng": -122.360191
+    },
+     {
+      "name": "Mask Bloc Caen",
+      "region": "Europe",
+      "location": "Caen, FR (France)",
+      "description": "Dons et distrib de masques FFP2, réduction des risques aéroportés, autodéfense sanitaire (Covid et +).",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Website", "url": "https://instagram.com/maskbloc_caen/" }
+      ],
+      "lat": 49.17376,
+      "lng": -0.38139
     }
   ]
 }
