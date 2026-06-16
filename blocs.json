@@ -432,6 +432,19 @@
       ],
       "lat": 45.5237,
       "lng": -122.6226
+    },
+    {
+      "name": "CRANE Mask Bloc",
+      "region": "USA - Northeast",
+      "location": "Acworth, NH (New Hampshire)",
+      "description": "free masks, often but not always tests, sometimes local connections. talk to us about starting your own mutual aid!",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Linktree", "url": "https://linktr.ee/cranemaskbloc" }
+      ],
+      "lat": 43.21399,
+      "lng": -72.321192
     }
   ]
 }
