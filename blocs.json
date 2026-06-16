@@ -59,7 +59,7 @@
       "lng": -97.0377
     },
     {
-      "name": "South Eastern Pennsylvania Air Safety Bloc",
+      "name": "South Eastern Pennsylvania Airborne Safety Bloc",
       "region": "USA - Northeast",
       "location": "Philly, PA (Pennsylvania)",
       "description": "Now avail for distro in the Greater Philly Area: masks, covid tests, airborne safety ed, + public health & harm redux goods 😷 More comrades always welcome 💙 We are on crip time🦋.",
@@ -445,6 +445,20 @@
       ],
       "lat": 43.21399,
       "lng": -72.321192
+    },
+    {
+      "name": "Masks for Magan-djin",
+      "region": "Oceania",
+      "location": "Magan-djin / Brisbane, QLD (Australia)",
+      "description": "We offer free high quality respirators which can requested via our Instagram, email or mask request form and are provided via drop off, post, pick up or at our meet ups.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://instagram.com/masks4magandjin" },
+        { "label": "Request Form", "url": "https://tinyurl.com/M4Mrequest" }
+      ],
+      "lat": -27.47020,
+      "lng": 153.02685
     }
   ]
 }
