@@ -499,6 +499,19 @@
       ],
       "lat": 47.2137893,
       "lng": -1.5552400
+    },
+    {
+      "name": "Common Humanity Collective",
+      "region": "USA - West",
+      "location": "San Francisco Bay Area, CA (California)",
+      "description": "Collective distributing free masks, DIY air purifiers, and other clean air and safety supplies in the San Francisco Bay Area including SF, Oakland, Berkeley and beyond.",
+      "status": "active",
+      "type": "care-collective",
+      "links": [
+        { "label": "Website", "url": "https://www.commonhumanitycollective.org/" }
+      ],
+      "lat": 37.792825,
+      "lng": -122.360191
     }
   ]
 }
