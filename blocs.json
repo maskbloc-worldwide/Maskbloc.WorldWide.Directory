@@ -567,6 +567,20 @@
       ],
       "lat": 42.276514,
       "lng": -72.399129
+    },
+    {
+      "name": "Prairie Solidarity",
+      "region": "USA - Midwest",
+      "location": "North Dakota",
+      "description": "Free N95s and Kn95s, informational zines. We will ship these to anyone in ND. We are hoping to have free tests and air purifier rentals in the near future.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Website", "url": "https://www.prairiesolidarity.org/" },
+        { "label": "Facebook", "url": "https://www.facebook.com/61587262663931/" }
+      ],
+      "lat": 46.9955,
+      "lng": -98.6878
     }
   ]
 }
