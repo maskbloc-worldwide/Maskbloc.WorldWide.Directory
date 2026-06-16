@@ -417,6 +417,21 @@
       ],
       "lat": 28.5356194,
       "lng": -81.3820504
+    },
+    {
+      "name": "Free Covid Tests PDX",
+      "region": "USA - West",
+      "location": "Portland, OR (Oregon)",
+      "description": "Mutual aid group providing free COVID tests and masks to the Portland Metro Area.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/freecovidtestspdx" },
+        { "label": "Linktree", "url": "https://linktr.ee/freecovidtestspdx" },
+        { "label": "Request Form", "url": "https://bit.ly/freecovidtestspdx" }
+      ],
+      "lat": 45.5237,
+      "lng": -122.6226
     }
   ]
 }
