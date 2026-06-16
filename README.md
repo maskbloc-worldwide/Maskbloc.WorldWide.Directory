@@ -71,7 +71,7 @@ Entries without coordinates still appear in the directory list - they just won't
 
 **Notes**
 - Leaflet loads from a CDN (unpkg). It's pinned to a specific version with integrity hashes for safety. If you'd rather not depend on a CDN, download `leaflet.js` and `leaflet.css` into a `vendor/leaflet/` folder and point the two `<head>` tags at the local copies.
-- OSM tiles are free for reasonable community use. If the site ever gets very high traffic, swap the tile URL for a free-tier provider (e.g. Carto, Stadia) — it's a one-line change in the `L.tileLayer(...)` call.
+- OSM tiles are free for reasonable community use. If the site ever gets very high traffic, swap the tile URL for a free-tier provider (e.g. Carto, Stadia) - it's a one-line change in the `L.tileLayer(...)` call.
 - The map starts with scroll-zoom disabled so it doesn't grab the page scroll; clicking the map enables zoom. Pinch-zoom works on touch devices.
 
 ---
