@@ -472,6 +472,33 @@
       ],
       "lat": 43.651070,
       "lng": -79.347015
+    },
+    {
+      "name": "Portugal Mask Bloc",
+      "region": "Europe",
+      "location": "Lisboa, PT (Portugal)",
+      "description": "We have free N95s, KN95s, a couple of Readimasks, and some kids sized KN95s. Additonally, we have one AirFanta 4Lite and one AirFanta 3Pro available to rent out as well. *We can also ship masks to other countries in Europe, for that we just ask that you cover the shipping cost please.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/covid.safer.portugal/" },
+        { "label": "Request Form", "url": "https://forms.gle/41WRzDAqnZgYZJSV7/" }
+      ],
+      "lat": 38.736946,
+      "lng": -9.142685
+    },
+    {
+      "name": "Mask Block Nantes",
+      "region": "Europe",
+      "location": "Nantes, FR (France)",
+      "description": "Masques FFP2 gratuits, tests covid équivalent PCR (PlusLife).",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Website", "url": "https://yrtree.me/@MaskBlocNantes" }
+      ],
+      "lat": 47.2137893,
+      "lng": -1.5552400
     }
   ]
 }
