@@ -581,6 +581,34 @@
       ],
       "lat": 46.9955,
       "lng": -98.6878
+    },
+    {
+      "name": "Aberdeen Mask Bloc",
+      "region": "Europe",
+      "location": "Scotland, UK (United Kingdom)",
+      "description": "Free masks, zines and covid info. Small supply of air purifiers for loan. Enquiries/requests (e.g for air purifier loans or to see what range of masks we currently have available) see email in linktree. Small mask bloc running on crip time.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/abdnmaskbloc/" },
+        { "label": "Linktree", "url": "https://linktr.ee/abdnmaskbloc/" }
+      ],
+      "lat": 57.1478,
+      "lng": -2.1064
+    },
+    {
+      "name": "People's Filter",
+      "region": "USA - Northeast",
+      "location": "Philadelphia, PA (Pennsylvania)",
+      "description": "Borrow HEPA air purifiers for free, no questions asked. Abolitionist project for disability justice, connecting folks to other free resources, mask-required events, and mutual aid in so-called Philadelphia.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/peoplesfilter" },
+        { "label": "Linktree", "url": "https://linktr.ee/phillycovidsaferevents" }
+      ],
+      "lat": 39.951060,
+      "lng": -75.165620
     }
   ]
 }
