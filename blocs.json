@@ -70,8 +70,8 @@
         { "label": "Mastodon", "url": "https://www.nih.hil.ist/@sepas/" },
         { "label": "LinkTree", "url": "https://linktr.ee/sepas_bloc" }
       ],
-      "lat": 39.9526,
-      "lng": -75.1652
+      "lat": 39.949238921592055,
+      "lng": -75.20937629584613
     },
     {
       "name": "Covid Conscious Bloc of San Antonio",
@@ -84,8 +84,8 @@
         { "label": "Instagram", "url": "https://www.instagram.com/ccb.sa/" },
         { "label": "Website", "url": "https://ccb-sa.org" }
       ],
-      "lat": 39.949238921592055,
-      "lng": -75.20937629584613
+      "lat": 29.42412,
+      "lng": -98.49363
     },
     {
       "name": "Central Montco Mask Bloc",
