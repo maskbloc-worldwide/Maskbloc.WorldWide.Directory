@@ -623,6 +623,21 @@
       ],
       "lat": 39.739338,
       "lng": -104.984812
+    },
+     {
+      "name": "Mendo Clean Air Club",
+      "region": "USA - West",
+      "location": "Mendocino County, CA (California)",
+      "description": "Free N95/Kn95, rapid covid tests, and air purifier loans. We provide these across Mendocino County, including Ukiah, Willits, Fort Bragg, Gualala, and all other areas as well.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Website", "url": "https://mendocleanair.club/" },
+        { "label": "Instagram", "url": "https://www.instagram.com/mendocleanairclub/" },
+        { "label": "Request Form", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdaZRyO88pbW1402RobvHtEtD8rqXhVJVHU62Mm7pa4oE22Ww/viewform" }
+      ],
+      "lat": 39.14748167597534,
+      "lng": -123.20710627142549
     }
   ]
 }
