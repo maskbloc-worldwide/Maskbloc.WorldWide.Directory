@@ -697,6 +697,21 @@
       ],
       "lat": 43.158381,
       "lng": -79.250629
+    },
+    {
+      "name": "Mask Bloc Paris Banlieues",
+      "region": "Europe",
+      "location": "Paris, IDF (France)",
+      "description": "Collectif d’aide mutuelle et d’autodéfense sanitaire dédié à la distribution de masques à Paris et en banlieue parisienne. Pour obtenir des masques gratuitement, tu peux remplir notre formulaire et on fera de notre mieux pour répondre à ta demande !",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Request Form", "url": "https://framaforms.org/demande-de-masques-mask-bloc-paris-banlieues-1769597504" },
+        { "label": "Mastodon", "url": "https://toot.aquilenet.fr/@MaskBlocParis" },
+        { "label": "Bluesky", "url": "https://bsky.app/profile/maskblocparis.bsky.social" }        
+      ],
+      "lat": 48.86129390067305,
+      "lng": 2.340857028650495
     }
   ]
 }
