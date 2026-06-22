@@ -712,6 +712,32 @@
       ],
       "lat": 48.86129390067305,
       "lng": 2.340857028650495
+    },
+    {
+      "name": "Zorro Rennes",
+      "region": "Europe",
+      "location": "Rennes, BRE (France)",
+      "description": "Don de mask (FFP2), tests de dépistages (PlusLife) à prix libre, évènements covid cautious",
+      "status": "active",
+      "type": "care-collective",
+      "links": [
+        { "label": "Website", "url": "https://zorrorennes.eu.org/" }     
+      ],
+      "lat": 48.09757,
+      "lng": -1.67559
+    },
+    {
+      "name": "Mask Bloc 253",
+      "region": "USA - West",
+      "location": "Washington",
+      "description": "Don de mask (FFP2), tests de dépistages (PlusLife) à prix libre, évènements covid cautious",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/maskbloc253/" }     
+      ],
+      "lat": 48.09757,
+      "lng": -122.4390969
     }
   ]
 }
