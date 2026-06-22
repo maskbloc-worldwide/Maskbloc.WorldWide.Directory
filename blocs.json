@@ -738,6 +738,48 @@
       ],
       "lat": 48.09757,
       "lng": -122.4390969
+    },
+    {
+      "name": "Boston COVID Action",
+      "region": "USA - Northeast",
+      "location": "Boston, MA (Massachusetts)",
+      "description": "Free (K)N95 masks and covid tests.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/boscovidaction/" },
+        { "label": "Request Form", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdVkPSZ4iWovlQtMBRqgp8BLhGoZ-Uxaog7A4sLbHj8btuucg/viewform" } 
+      ],
+      "lat": 42.361145,
+      "lng": -71.057083
+    },
+    {
+      "name": "Triangle Mask Bloc",
+      "region": "USA - South",
+      "location": "Triangle Area, Raleigh-Durham-Chapel Hill, NC (North Carolina)",
+      "description": "Providing free K/N95 masks, COVID-19 tests, and COVID education in the Raleigh-Durham-Chapel Hill area of North Carolina.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/trianglemaskbloc/" },
+        { "label": "Caard", "url": "https://trianglemaskbloc.carrd.co/" } 
+      ],
+      "lat": 35.99605,
+      "lng": -78.90192
+    },
+    {
+      "name": "Celebrate845",
+      "region": "USA - Northeast",
+      "location": "Triangle Area, Raleigh-Durham-Chapel Hill, NC (North Carolina)",
+      "description": "We center arts, activism, and accessibility. We partner with libraries etc. to steward Free PPE Hubs across the region that carry free masks for all ages. We also offer sliding scale rapid tests and lend out tools for air cleaning and testing..",
+      "status": "active",
+      "type": "care-collective",
+      "links": [
+        { "label": "Website", "url": "https://www.celebrate845.com/covid19" },
+        { "label": "Instagram", "url": "https://www.instagram.com/Celebrate.845" } 
+      ],
+      "lat": 41.745816,
+      "lng": -74.083498
     }
   ]
 }
