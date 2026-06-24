@@ -808,6 +808,20 @@
       ],
       "lat": 26.02984628157773,
       "lng": -80.43407953959385
+    },
+    {
+      "name": "Santa Barbara Mask Bloc",
+      "region": "USA - West",
+      "location": "Santa Barbara, CA (California)",
+      "description": "We provide free high quality masks and tests (when available) as well as educational materials about the ongoing risks of COVID. We can do local drop offs (Santa Barbara, Goleta, Carpinteria and the wider Santa Barbara and Ventura counties) of supplies as requested. Contact us via email or instagram if you’re in the 805 area and would like us to table at your events or provide educational outreach.Email: sbmaskbloc@proton.org",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Instagram", "url": "https://www.instagram.com/santabarbaramaskbloc" },
+        { "label": "Linktree", "url": "https://linktr.ee/santabarbaramaskbloc" }      
+      ],
+      "lat": 34.42416632196007,
+      "lng": -11970357324801094
     }
   ]
 }
