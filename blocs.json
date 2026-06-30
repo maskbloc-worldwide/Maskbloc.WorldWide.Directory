@@ -849,6 +849,34 @@
       ],
       "lat": 39.961968300305,
       "lng": -83.00305
+    },
+    {
+      "name": "Mask Bloc MSP",
+      "region": "USA - Midwest",
+      "location": "Minneapolis-St. Paul, MN (Minnesota)",
+      "description": "Free N95s and KN95s, free antigen tests",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Carrd", "url": "https://maskblocmsp.carrd.co/" }
+      ],
+      "lat": 44.948444,
+      "lng": -93.205261
+    },
+    {
+      "name": "Mask Bloc NEO",
+      "region": "USA - Northeast",
+      "location": "Greater Cleveland, OH (Ohio)",
+      "description": "We offer free masks and rapid tests through our request form with contactless drop-off, meet-up, or mail delivery options. We also loan out CR boxes and keep a couple of local libraries regularly stocked with supplies.",
+      "status": "active",
+      "type": "mask-bloc",
+      "links": [
+        { "label": "Linktree", "url": "https://linktr.ee/maskblocneo" },
+        { "label": "Instagram", "url": "https://www.instagram.com/maskblocneo" },
+        { "label": "Request Form", "url": "https://tr.ee/F8DpC0Dmk9" }
+      ],
+      "lat": 41.4960034258086,
+      "lng": -81.56484783122401
     }
   ]
 }
